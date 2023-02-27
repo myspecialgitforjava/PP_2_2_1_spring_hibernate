@@ -3,8 +3,10 @@ package hiber.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "userhib")
 public class User {
+
+   Car car = new Car();
 
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
